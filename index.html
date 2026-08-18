@@ -22,12 +22,20 @@
             background-color: #0f1115; /* အမည်းရင့်ရောင် ဘား */
             padding: 15px 20px;
             border-bottom: 1px solid #1a1d24;
+            display: flex;
+            align-items: center;
         }
 
         .logo {
-            font-size: 22px;
-            font-weight: 500;
-            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* 🌟 2:1 အချိုးကျ Logo ပုံအတွက် CSS 🌟 */
+        .logo img {
+            height: 32px; /* လိုအပ်ပါက အကြီး/အသေး ပြင်နိုင်ပါသည် */
+            aspect-ratio: 2 / 1; /* အလျား ၂၊ အမြင့် ၁ အချိုး */
+            object-fit: contain; /* ပုံမပွတ်စေရန် */
         }
 
         /* အလယ်ပိုင်း စာသားနှင့် ပုံ */
@@ -98,8 +106,10 @@
 <body>
 
     <header>
-        <!-- My Logo နေရာတွင် သင်၏ App နာမည် ပြောင်းရေးနိုင်ပါသည် -->
-        <div class="logo">My Logo</div>
+        <!-- 🌟 My Logo စာသားနေရာတွင် ပုံ အစားထိုးထားပါသည် 🌟 -->
+        <div class="logo">
+            <img src="YOUR_LOGO_IMAGE_LINK_HERE" alt="App Logo">
+        </div>
     </header>
 
     <main>
