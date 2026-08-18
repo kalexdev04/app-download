@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Our App</title>
+    <style>
+        /* အခြေခံကျသော ဒီဇိုင်းသတ်မှတ်ချက်များ */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* နောက်ခံ အမည်းရောင် */
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* အပေါ်ဆုံး Logo ဘား */
+        header {
+            background-color: #0f1115; /* အမည်းရင့်ရောင် ဘား */
+            padding: 15px 20px;
+            border-bottom: 1px solid #1a1d24;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        /* အလယ်ပိုင်း စာသားနှင့် ပုံ */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.4;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            max-width: 400px;
+        }
+
+        /* ဖုန်းပုံစံ အဖြူကွက် (Mockup) */
+        .phone-mockup {
+            width: 220px;
+            height: 450px;
+            background-color: #ffffff;
+            border-radius: 35px;
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* တကယ်လို့ App Screenshot ထည့်ချင်ရင် ဒီအတိုင်းသုံးပါ */
+        .phone-mockup img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* အောက်ဆုံး Download ခလုတ် */
+        footer {
+            padding: 20px 20px 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .download-btn {
+            background-color: #FF9800; /* လိမ္မော်ရောင် */
+            color: #000000;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            padding: 18px 0;
+            width: 100%;
+            max-width: 350px;
+            border-radius: 30px; /* ဘေးဘောင် အဝိုင်း */
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:active {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- My Logo နေရာတွင် သင်၏ App နာမည် ပြောင်းရေးနိုင်ပါသည် -->
+        <div class="logo">My Logo</div>
+    </header>
+
+    <main>
+        <h1>All-in-one mobile experience<br>for everyone</h1>
+        
+        <div class="phone-mockup">
+            <!-- ဤနေရာရှိ အဖြူကွက်ထဲတွင် ပုံထည့်ချင်ပါက အောက်ပါ img tag တွင် ပုံလင့်ခ်ထည့်ပါ -->
+            <!-- <img src="သင့်ပုံလင့်ခ်" alt="App Preview"> -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- Box တွင်တင်ထားသော သင်၏ APK Download Link ကို href အထဲတွင် ထည့်ပါ -->
+        <a href="YOUR_BOX_DOWNLOAD_LINK_HERE" class="download-btn">Download App</a>
+    </footer>
+
+</body>
+</html>
